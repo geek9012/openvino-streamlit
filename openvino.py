@@ -12,6 +12,7 @@ if st.sidebar.button('See Demo'):
     if choose == "vehicle-detection demo1":
         #Options2 = [" ","image1","image2"]
         #choose2 = st.selectbox("Select image:", Options2)
+        st.header("Model name: vehicle-attributes-recognition-barrier-0039")
         st.write("This model presents a vehicle attributes classification algorithm for a traffic analysis scenario.")
         image = Image.open('results/vehicle-attributes-recognition-barrier-0039/car.jpg')
         image2 = Image.open('results/vehicle-attributes-recognition-barrier-0039/car1.png')
@@ -21,6 +22,7 @@ if st.sidebar.button('See Demo'):
     if choose == "vehicle-detection demo2":
         #Options2 = [" ","image1","image2"]
         #choose2 = st.selectbox("Select image:", Options2)
+        st.header("Model name: vehicle-attributes-recognition-barrier-0039")
         st.write("This model presents a vehicle attributes classification algorithm for a traffic analysis scenario.")
         image = Image.open('results/vehicle-attributes-recognition-barrier-0039/truck.jpg')
         image2 = Image.open('results/vehicle-attributes-recognition-barrier-0039/truck1.jpg')
@@ -30,7 +32,8 @@ if st.sidebar.button('See Demo'):
     if choose == "face-landmark-detection demo1":
         #Options2 = [" ","image1","image2"]
         #choose2 = st.selectbox("Select image:", Options2)
-        st.write("The model predicts five facial landmarks: two eyes, nose, and two lip corners.")
+        st.header("Model name: landmarks-regression-retail-0009")
+        st.write("This is a lightweight landmarks regressor for the Smart Classroom scenario. The model predicts five facial landmarks: two eyes, nose, and two lip corners.")
         image = Image.open('results/landmarks-regression-retail-0009/angry.png')
         image2 = Image.open('results/landmarks-regression-retail-0009/angry1.png')
         st.image(image, caption='Original')
@@ -39,7 +42,8 @@ if st.sidebar.button('See Demo'):
     if choose == "face-landmark-detection demo2":
         #Options2 = [" ","image1","image2"]
         #choose2 = st.selectbox("Select image:", Options2)
-        st.write("The model predicts five facial landmarks: two eyes, nose, and two lip corners.")
+        st.header("Model name: landmarks-regression-retail-0009")
+        st.write("This is a lightweight landmarks regressor for the Smart Classroom scenario. The model predicts five facial landmarks: two eyes, nose, and two lip corners.")
         image = Image.open('results/landmarks-regression-retail-0009/smile.png')
         image2 = Image.open('results/landmarks-regression-retail-0009/smile1.png')
         st.image(image, caption='Original')
